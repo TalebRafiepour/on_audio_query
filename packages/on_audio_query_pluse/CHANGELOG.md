@@ -1,4 +1,4 @@
-## [[2.9.3](https://github.com/LucJosin/on_audio_query/releases/tag/2.9.3)]
+## [[2.9.4](https://github.com/LucJosin/on_audio_query/releases/tag/2.9.4)]
 
 ### Fixes
 
