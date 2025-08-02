@@ -7,8 +7,8 @@
 
 [Flutter](https://flutter.dev/) Plugin used to query audios/songs 🎶 infos [title, artist, album, etc..] from device storage. <br>
 
-**Any problem? [Issues](https://github.com/LucJosin/on_audio_query/issues)** <br>
-**Any suggestion? [Pull request](https://github.com/LucJosin/on_audio_query/pulls)**
+**Any problem? [Issues](https://github.com/TalebRafiepour/on_audio_query/issues)** <br>
+**Any suggestion? [Pull request](https://github.com/TalebRafiepour/on_audio_query/pulls)**
 
 </div>
 
@@ -56,7 +56,7 @@
 Add the following code to your `pubspec.yaml`:
 ```yaml
 dependencies:
-  on_audio_query: ^2.9.0
+  on_audio_query: ^2.9.3
 ```
 
 ### Request Permission:
@@ -189,6 +189,6 @@ Or you can use a basic and custom Widget.
 
 ## LICENSE:
 
-* [LICENSE](https://github.com/LucJosin/on_audio_query/blob/main/on_audio_query/LICENSE)
+* [LICENSE](https://github.com/TalebRafiepour/on_audio_query/blob/main/packages/on_audio_query_pluse/LICENSE)
 
 > * [Back to top](#on_audio_query)
