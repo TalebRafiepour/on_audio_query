@@ -1,3 +1,9 @@
+## [[2.9.1](https://github.com/LucJosin/on_audio_query/releases/tag/2.9.1)]
+
+### Fixes
+
+- **Updated** Android Gradle plugin for improved compatibility and build stability.
+
 ## [[2.9.0](https://github.com/LucJosin/on_audio_query/releases/tag/2.9.0)]
 
 ### Features

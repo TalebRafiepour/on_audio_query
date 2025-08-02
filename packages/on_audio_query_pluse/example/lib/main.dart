@@ -13,7 +13,7 @@ Copyright: © 2021, Lucas Josino. All rights reserved.
 */
 
 import 'package:flutter/material.dart';
-import 'package:on_audio_query/on_audio_query.dart';
+import 'package:on_audio_query_pluse/on_audio_query.dart';
 
 void main() {
   runApp(
