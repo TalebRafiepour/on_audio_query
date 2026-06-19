@@ -1,3 +1,9 @@
+## 1.3.0
+
+**Bug Fixes:**
+- Fixed Android playlist mutations on API 33+ by using safer MediaStore playlist/member URIs.
+- Fixed playlist and audio ID handling to support `Long` MediaStore IDs on newer Android versions.
+
 ## 1.2.1
 
 **Bug Fixes:**

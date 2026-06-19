@@ -30,7 +30,7 @@ class AudioFromQuery : ViewModel() {
 
     //Main parameters
     private val helper = QueryHelper()
-    private var pId = 0
+    private var pId = 0L
     private var pUri = MediaStore.Audio.Media.EXTERNAL_CONTENT_URI
     // When querying playlist/genre members we need to include the actual audio id column
     private var memberProjection: Array<String>? = null
@@ -150,12 +150,12 @@ class AudioFromQuery : ViewModel() {
             checkName(plName = info.toString())
         }
 
-        if (!checkedName) pId = info.toString().toInt()
+        if (!checkedName) pId = info.toString().toLong()
 
         pUri = if (type == 4 || type == 5) {
-            MediaStore.Audio.Genres.Members.getContentUri("external", pId.toLong())
+            MediaStore.Audio.Genres.Members.getContentUri("external", pId)
         } else {
-            MediaStore.Audio.Playlists.Members.getContentUri("external", pId.toLong())
+            MediaStore.Audio.Playlists.Members.getContentUri("external", pId)
         }
 
         // Build a projection that ensures the returned `_id` is the actual audio id.
@@ -236,7 +236,7 @@ class AudioFromQuery : ViewModel() {
             val name = cursor.getString(0)
 
             if (name != null && name == plName || name == genreName) {
-                pId = cursor.getInt(1)
+                pId = cursor.getLong(1)
                 return true
             }
         }

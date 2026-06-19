@@ -1,3 +1,12 @@
+## [[3.0.7](https://github.com/TalebRafiepour/on_audio_query_pluse/releases/tag/3.0.7)]
+
+### Fixes
+
+#### Android
+
+- **Updated** `on_audio_query_plus_android` to `1.3.0`.
+- **Fixed** playlist mutations on Android API 33+ through the updated Android implementation.
+
 ## [[3.0.5](https://github.com/TalebRafiepour/on_audio_query_pluse/releases/tag/3.0.5)]
 
 ### Fixes
